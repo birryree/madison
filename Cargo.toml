@@ -1,0 +1,18 @@
+[package]
+name = "madison"
+version = "0.1.0"
+authors = ["William Lee <wlee@explainedbycats.com>"]
+
+[build-dependencies]
+serde_codegen = "*"
+syntex = "*"
+
+[dependencies]
+irc = "*"
+serde = "*"
+serde_json = "*"
+toml = "*"
+hyper = "*"
+log = "*"
+env_logger = "*"
+mio = "*"
